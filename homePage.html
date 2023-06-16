@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="homePage.html"><img src="images/logostore.png" alt=""></a>
+            </div>
+            <div class="hum">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#" class="active">Blable</a></li>
+                    <li><a href="#" class="#category">Category</a></li>
+                    <li><a href="#" class="#product">Products</a></li>
+                    <li><a href="#" class="#news">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content-box">
+            <h2>Get up to 45% <br> of new products</h2>
+            <label for="">the biggest sale of the year is at <span>Blable Mobiles</span></label><br>
+            <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <!-- Category -->
+    <div class="category" id="category">
+        <div class="category-title">
+            <h2>Mobile category</h2>
+        </div>
+        <div class="category-box">
+            <div class="box woman-box">
+                <div class="box-content b2">
+                    <h3>Most popular styles</h3>
+                    <label>Xiaomi</label>
+                    <a href="#">Go Here</a>
+                </div>
+                <img src="images/category/6.png" alt="">
+            </div>
+            <div class="box woman-box">
+                <div class="box-content b2">
+                    <h3>Most popular styles</h3>
+                    <label>Samsung</label>
+                    <a href="#">Go Here</a>
+                </div>
+                <img src="images/category/9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- products -->
+    <div class="popular-products" id="products">
+        <div class="popular-products-box">
+            <div class="popular-products-title">
+                <h2>POPULAR PRODUCTS</h2>
+            </div>
+            <div class="popular-products-items" id="product-list">
+                <!-- The fetched data will be inserted here -->
+            </div>
+            <div class="popular-products-btn">
+                <button>More</button>
+                <a href="Products/productAdd.html"><button>Add New</button></a>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="footer-i f1">
+                <h4>contact</h4>
+                <lable>Street : 2023 Azaz</lable><br>
+                <lable>City : Azaz</lable><br>
+                <lable>State Full : Syria</lable><br>
+                <lable>Zip Code : 33333</lable><br>
+                <lable>Phone Number : 00352681516348</lable><br>
+            </div>
+            <div class="footer-i f2">
+                <h4>Visit Us</h4>
+                <lable>Getting Here</lable><br>
+                <lable>Our Supporters</lable><br>
+                <lable>seating Charts</lable><br>
+                <lable>staff Directory</lable><br>
+                <lable>Current Season</lable><br>
+                <label>Donor Events</label><br>
+            </div>
+            <div class="footer-i f3">
+                <h4>Resen Posts</h4>
+                <lable>Breaking Down Barriers</lable><br>
+                <lable>A Celebration Of Success</lable><br>
+                <lable>A World Of Opportunities</lable>
+            </div>
+        </div>
+        <div class="sosial-media">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>    
+        fetchPosts();
+    </script>
+</body>
+</html>

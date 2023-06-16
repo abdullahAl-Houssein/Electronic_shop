@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Product</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <form class="add-product-form">
+      <h1 class="form-title">Add New Product</h1>
+      <div class="form-group">
+        <label for="product-name">Title:</label>
+        <input type="text" id="product-name" name="product-name" required>
+      </div>
+      <div class="form-group">
+        <label for="product-description">Body:</label>
+        <textarea id="product-description" name="product-description" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="product-image">Image:</label>
+        <input type="file" id="product-image" name="product-image" accept="image/*">
+      </div>
+      <button class="add-button" type="submit">Add</button>
+    </form>
+    <div class="message-container">
+      <div class="message-box"></div>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
